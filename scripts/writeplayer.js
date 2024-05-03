@@ -52,7 +52,7 @@ function writeKey(keyID) {
 	}else{
 		var keyHTML = "<iframe src='https://keys.lucidcentral.org/keys/v3/csiro/what_bug_is_that/" + keyPage + "' frameborder='0' height='" + y + "' marginheight='0' marginwidth='0' name='key' scrolling='auto' width='950'></iframe>";
 	}
-    var safariHTML = "<iframe src='safariKey.aspx?KeyID=" + keyID + "' frameborder='0' height='" + y + "' marginheight='0' marginwidth='0' name='key' scrolling='auto' width='950'></iframe";
+    var safariHTML = "<iframe src='https://keys.lucidcentral.org/keys/v3/csiro/what_bug_is_that/" + keyPage + "' frameborder='0' height='" + y + "' marginheight='0' marginwidth='0' name='key' scrolling='auto' width='950'></iframe>";
    if (browserIs.isSafari && !browserIs.isChrome) {
        document.write(safariHTML);
     }
